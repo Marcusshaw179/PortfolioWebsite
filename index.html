@@ -17,23 +17,33 @@
 
     <nav>
         <ul class ="nav-links-container">
-            <li class="nav-links"><a href="index.html">Home</a></li>
-            <li class="nav-links"><a href="projects.html">Projects</a></li>
-            <li class="nav-links"><a href="about.html">About Me</a></li>
-            <li class="nav-links"><a href="contact.html">Contact</a></li>
+            <li class="nav-links"><a href="#main-content">Home</a></li>
+            <li class="nav-links"><a href="#projects">Projects</a></li>
+            <li class="nav-links"><a href="#about">About Me</a></li>
+            <li class="nav-links"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <main>
-        <h1>Marcus Aurileus Shaw</h1>
+    <main id = "main-content">
+        <h1>Welcome!</h1>
         <p>
             Hi there! I'm Marcus Aurileus Shaw, a full-stack developer. 
             This is where I showcase the projects I've worked on and share a bit about myself.
         </p>
-
+        <section id ="about">
+            <h2>About Me</h2>
+            <p>
+            Disciplined and self-motivated career changer transitioning into full-stack development, 
+            combining a strong IT background with a proven record of working under pressure and delivering to high standards. 
+            I’m building responsive, accessible web applications using HTML, CSS, JavaScript and modern tooling, with a focus on clean code, 
+            practical problem-solving and continuous improvement. 
+            With a military-trained mindset and experience supporting users and systems, I bring reliability, 
+            strong communication and the drive to contribute quickly within a development team.
+            </p>
+        </section>
         <section>
             <h2>Featured Projects</h2>
-            <div class="project">
+            <div class="project" id="projects">
                 <h3>Dasamoto Art</h3>
                 <p>description to fill</p>
                 <a href="https://github.com/Marcusshaw179/DasmotoArt">View on GitHub</a>
@@ -54,11 +64,29 @@
                 <a href="https://github.com/Marcusshaw179/MartialArtsDojo">View on GitHub</a>
             </div>
         </section>
+        <section class = "contact-section" id ="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out using the form below.</p>
+        
+        <form action="mailto:marcus.shaw179@gmail.com" method="post" enctype="text/plain">
+            <label  for="name">Name:</label><br>
+            <input class= "form-labels" type="text" id="name" name="name" required><br><br>
+            
+            <label  for="email">Email Content:</label><br>
+            <textarea id="email" name="email" rows="5" cols="50" required></textarea><br><br>
+            
+            <label for="phone">Contact Number (Optional):</label><br>
+            <input class= "form-labels" type="tel" id="phone" name="phone"><br><br>
+            
+            <input id = "submit-btn" type="submit" value="Send Email">
+        </form>
+        </section>
     </main>
 
     <footer>
         <p>
-             2025 Marcus Aurileus Shaw<br>
+             Marcus Aurileus Shaw<br>
+             07881076589<br>
             <a href="marcus.shaw179@gmail.com">marcus.shaw179@gmail.com</a>
         </p>
     </footer>
