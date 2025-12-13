@@ -32,6 +32,21 @@ nav a {
     font-size: 1.1em;
     color: #333;
 }
+.nav-links-container {
+    display: flex;
+    position: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.nav-links {
+    text-align: center;
+    width: 6em;
+    height: 1.5em;
+    font-size: 1.5em;
+    padding: 4px;
+    list-style: none;
+    border: black 3px solid;
+}
 
 nav a:hover {
     text-decoration: underline;
