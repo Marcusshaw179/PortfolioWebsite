@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #413e3e;
+    background-color: #b3a4a4;
     color: #333;
 }
 
@@ -71,7 +71,7 @@ main {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
-    background-color: #949494;
+    background-color: #b3afaf;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
