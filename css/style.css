@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #413e3e;
     color: #333;
 }
 
@@ -57,7 +57,7 @@ main {
     max-width: 900px;
     margin: 30px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #949494;
 }
 
 
@@ -73,6 +73,9 @@ h2 {
 
 
 .project {
+    border: #0066cc 2px solid;
+    display: flex;
+    justify-content: left;
     border: 1px solid #ddd;
     padding: 15px;
     margin-top: 15px;
@@ -89,6 +92,13 @@ h2 {
     text-decoration: underline;
 }
 
+.project-image {
+    margin-left: auto;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
 
 footer {
     text-align: center;
@@ -99,16 +109,7 @@ footer {
 }
 
 
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
 
-    main {
-        margin: 15px;
-    }
-}
 
 /* Begin form styling */
 form {
@@ -143,4 +144,15 @@ label {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    main {
+        margin: 15px;
+    }
 }
